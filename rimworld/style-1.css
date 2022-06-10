@@ -1,0 +1,130 @@
+body{
+    background-image:url(images/metall-pat-005.jpg)  ; 
+}
+.navbar{
+    background-color: rgb(128, 128, 128);
+}
+
+.rimm{
+    width: 80px;
+}
+
+.preloader{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgb(128, 128, 128);
+    height: 100vh;
+    width: 100%;
+    z-index: 1000;
+    transition: 1.8s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.preloader img{
+    font-size: 3em;
+    letter-spacing: 10px;
+    
+   
+}
+
+.sen{
+    color: beige;
+    text-align: center;
+
+}
+
+.active{
+    background-color: rgb(76, 75, 81) !important;  
+    color: beige;
+}
+
+.car-list {
+    display: flex;
+    list-style-type: none;
+}
+.car-list li{
+    padding: 10px;
+    background-color: #ccc;
+    margin: 5px;
+    border-radius: 6px;
+}
+
+.car-list li:hover{
+    cursor: pointer;
+    
+}
+.car-wrap{
+    display: flex;
+    padding: 30px;
+}
+.car-img{
+    max-width: 50%;
+    margin-right: 20px;
+}
+.car-wrap img{
+    width: 100%;
+}
+.car-list {
+    display: flex;
+    list-style-type: none;
+}
+.car-list li{
+    padding: 10px;
+    background-color: #ccc;
+    margin: 5px;
+}
+
+.car-wrap{
+    display: flex;
+    padding: 30px;
+}
+.car-img{
+    max-width: 50%;
+    margin-right: 20px;
+}
+.car-wrap img{
+    width: 100%;
+}
+
+.car-info{
+    color: beige;
+    padding: 10px;
+}
+
+.car-about{
+    color: beige;
+    text-align: left;
+    padding: 10px;
+    font-size: 22px;
+    line-height: 1.8;
+}
+
+.opoH{
+    text-align: center;
+    color: beige;
+    padding-top: 20px;
+}
+
+.opovid{
+    margin-top: 50px;
+    padding: 80px 0;
+    color: beige;
+}
+
+.opovid-item{
+    margin-left: 20px;
+    padding: 20px;
+    height: 100%;
+    text-align: center;
+    color: beige;
+
+}
+
+.opovid-info{
+    color: beige;
+    padding: 10px;
+    font-size: 22px;
+}
